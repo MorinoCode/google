@@ -1,0 +1,36 @@
+/*navbar*/
+.navbar{
+    width: 100 vw;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-list{
+    display: flex;
+    
+}
+.navbar-list li{
+    list-style-type: none;
+    padding: 0.5rem;
+    
+}
+.navbar-list li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-list  button{
+    background-color: #0b57d0;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    padding: 0.5rem 1rem ;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.35rem;
+
+
+}
+.navbar-list  button:hover{
+    box-shadow: -1px 2px 31px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 31px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 31px -7px rgba(0,0,0,0.75);
+}
