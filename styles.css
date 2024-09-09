@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
 /*navbar*/
 .navbar {
   width: 100 vw;
@@ -10,10 +15,12 @@
 .navbar-list li {
   list-style-type: none;
   padding: 0.5rem;
+  padding-right: 1rem;
 }
 .navbar-list li a {
   text-decoration: none;
   color: black;
+  
 }
 .navbar-list button {
   background-color: #0b57d0;
@@ -21,6 +28,7 @@
   border: 0;
   border-radius: 20px;
   padding: 0.5rem 1rem;
+  margin-right: 1rem;
   color: white;
   font-weight: bold;
   margin-left: 0.35rem;
@@ -34,7 +42,7 @@
 /*Main*/
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 82vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,20 +64,57 @@
 }
 .btn-container {
   position: relative;
-  top: -6rem;  
+  top: -6rem;
 }
-.btn-search{
-    outline: none;
-    border: 0;
-    border-radius: 1rem;
-    padding: 1rem;
-    background-color: rgb(246, 245, 245);
+.btn-search {
+  outline: none;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgb(246, 245, 245);
+}
+.link-information {
+  position: relative;
+  top: -5rem;
+}
+.link-information a {
+  text-decoration: none;
+}
 
+/*Footer*/
+.footer {
+  background-color: rgb(246, 245, 245);
 }
-.link-information{
-    position: relative;
-    top: -5rem;  
+.footer-location {
+  border-bottom: 1px solid rgb(221, 219, 219);
+  display: flex;
 }
-.link-information a{
-    text-decoration: none;
+.footer-location p {
+  padding-left: 2rem;
+}
+.footer-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-navbar-left-list {
+  display: flex;
+}
+.footer-navbar-left-list li {
+  list-style: none;
+  padding-left: 1rem;
+}
+.footer-navbar-left-list li a {
+  text-decoration: none;
+  color: black;
+}
+.footer-navabr-right-list {
+  display: flex;
+}
+.footer-navabr-right-list li {
+  list-style: none;
+  padding-right: 1rem;
+}
+.footer-navabr-right-list li a {
+  text-decoration: none;
+  color: black;
 }
