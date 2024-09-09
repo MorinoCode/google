@@ -57,10 +57,24 @@ body {
   top: -8rem;
 }
 .input {
-  padding: 1rem 14rem;
+  width: 45rem;
+  padding: 1rem 0;
+  padding-left: 2rem;
+
   border: 1px solid rgb(208, 208, 208);
   border-radius: 2rem;
   outline: none;
+}
+.material-symbols-outlined {
+  position: relative;
+  left: 2.2rem;
+  top: 0.5rem;
+  color: gray;
+}
+.input-icons {
+  position: relative;
+  left: 40rem;
+  top: -2.8rem;
 }
 .btn-container {
   position: relative;
