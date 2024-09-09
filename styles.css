@@ -1,8 +1,9 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 /*navbar*/
 .navbar {
   width: 100 vw;
@@ -20,7 +21,6 @@ html, body {
 .navbar-list li a {
   text-decoration: none;
   color: black;
-  
 }
 .navbar-list button {
   background-color: #0b57d0;
